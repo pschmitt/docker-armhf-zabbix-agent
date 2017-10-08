@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker run -d --rm \
+docker run -d --restart=always \
   --privileged \
   --pid=host \
   --net=host \
